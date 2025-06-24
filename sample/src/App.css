@@ -1,0 +1,193 @@
+/* Reset and Base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #003366;
+  color: white;
+  padding: 0 30px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  padding: 5px 10px;
+  transition: background 0.2s;
+}
+
+.nav-links li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+}
+
+/* Hero Section (on Home page) */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #004080, #0066cc);
+  color: white;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: white;
+  color: #004080;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background-color: #cce0ff;
+}
+
+/* Shared Section Style */
+.section {
+  padding: 60px 30px;
+  max-width: 1000px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.section h1 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+.section li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.portal-form {
+  max-width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.portal-form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #003366;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-group button:hover {
+  background-color: #0055cc;
+}
+h1{
+  text-align: center;
+}
+.apply-form {
+  max-width: 500px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.apply-form input,
+.apply-form select,
+.apply-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #003366;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-group button:hover {
+  background-color: #0055cc;
+}
+.webs{
+  margin-bottom: 5px;
+}
+.web{
+  font-size: 28px; /* make "Application Form" bigger */
+  margin-top: 0;
+}
+#bas{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
